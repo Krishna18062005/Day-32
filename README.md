@@ -44,24 +44,6 @@ The system follows a *Client-Server Federated Learning Architecture*:
 2. *Server: Aggregates model updates (parameters) from all clients using the **FedAvg* algorithm and updates the global model.
 3. *Global Model*: Shared back with clients to continue the collaborative training process.
 
-The architecture can be visualized as:
-
-
-           +-------------------------+       
-           |     Central Server      |       
-           |   (Model Aggregation)   |       
-           +------------+------------+       
-                        |                    
-    +-------------------+-------------------+ 
-    |                   |                   |
-+---v---+           +---v---+           +---v---+
-|Client1|           |Client2|           |Client3|
-| (NN)  |           | (NN)  |           | (NN)  |
-+-------+           +-------+           +-------+
-
-(Clients process local data and send model updates to the server)
-
-
 ---
 
 ## Technologies Used
