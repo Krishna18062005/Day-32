@@ -1,6 +1,6 @@
 ---
 
-# Heart Disease Prediction Using Federated Learning Algorithms
+# Heart Disease Prediction Using Federated Learning Algorithms  
 
 This project implements a *Heart Disease Prediction Model* using Federated Learning techniques. The goal is to predict heart disease by training models collaboratively across decentralized client datasets without sharing raw data. This ensures *data privacy* while still achieving a high-performance global model.
 
